@@ -6,11 +6,13 @@
   background: pink;
   transition-property:transform;
   transition-duration: 1s;
+  transform-origin: top left;
 }
 
 .box:hover {
   /* transform: translate(40px, -40px); */
   /* transform: translateX(40px); */
   /* transform: rotate(45deg); */
-  transform: scale(2, .5);
+  transform: scaleY(.5);
+
 }
