@@ -6,9 +6,9 @@
   background: pink;
   transition-property:transform;
   transition-duration: 1s;
+  transition-delay: .5s;
 }
 
 .box:hover {
-  /* transform: translateX(100px) rotate(45deg); */
-  transform: rotate(45deg) translateX(100px);
+  transform: translateX(100px);
 }
