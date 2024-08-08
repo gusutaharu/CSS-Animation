@@ -7,6 +7,9 @@
   animation-name: move-around;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation: move-around 4s infinite 1s alternate;
 }
 
 @keyframes move-around {
@@ -21,5 +24,8 @@
   75%{
     transform: translate(0, 100px);
     border-radius: 0;
+  }
+  100%{
+    transform: translate(0, 200px);
   }
 }
